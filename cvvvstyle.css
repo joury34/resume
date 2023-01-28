@@ -1,0 +1,278 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+list-style:none;
+font-family:'arial',sans-serif;
+}
+
+
+body{
+background:#CBC3E3;
+}
+
+
+@media only screen and (max-width:768px) {
+  .header{
+  width: 100%;
+  grid-template-columns: 1fr;
+  padding: 3rem;
+  gap: 7rem;
+  }
+}
+
+@media only screen and (max-width: 768px){
+.left{
+
+  flex-direction: column;
+}
+}
+
+
+.resume{
+ width:800px;
+background:#fff;
+margin:25px auto;
+max-width:1000px;
+min-height:1000px;
+display:flex;
+}
+.left{
+background:#B6D0E2;
+width:500px;
+padding:0 20px;
+}
+.left .img_holder{
+text-align:center;
+padding:20px 0;
+}
+.left .img_holder img{
+width:150px;
+border-radius:30px;
+}
+.pb{
+padding-bottom:20px;
+}
+.title{
+font-size:15px;
+font-weight:500;
+text-transform:uppercase;
+}
+.title{
+font-size:24px;
+font-weight:700;
+text-transform:uppercase;
+Letter-spacing:5px;
+color:#5b3263;
+position:relative;
+text-align:right;
+margin: 0px;
+}
+.title:before{
+content:"";
+position:absolute;
+top:35px;
+right:0;
+width:100px;
+height:3px;
+background:#301934;
+
+
+}
+
+
+.skills .li_wrap{
+display:flex;
+align-items:center;
+width:100%;
+margin-bottom:10px;
+font-size:18px;
+font-family:'arial',sans-serif;
+font-weight: 400;
+
+}
+
+
+
+/*
+.skills .li_wrap .icon{
+width:70px;
+height:70px;
+}*/
+
+
+
+
+
+
+
+.contact h4{
+
+    margin: 20px 0px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+    margin-left: 0%;
+    font-weight: normal;
+    color:aliceblue;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1.4px solid rgb(241, 235, 235);
+ }
+
+ .contact .icons{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  height: 80px;
+}
+ .contact #whatsapp{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  width: 100px;
+  height: 80px;
+  width: 170px;
+  height: 110px;
+  font-size:15px;
+
+}
+.contact #email{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  width: 170px;
+  height: 110px;
+  font-size:15px;
+
+}
+.contact #instagram{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  width: 100px;
+  height: 80px;
+  width: 170px;
+  height: 110px;
+  font-size:15px;
+
+}
+.img_contact{
+
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+    }
+
+
+      
+      
+
+ 
+.header{
+background:#B6D0E2;
+padding: 15px 30px;
+height:240px;
+}
+.header .name{
+font-size:30px; 
+text-transform:uppercase;
+font-weight:700;
+color:#301934;
+}
+.header .role{
+font-weight:300;
+font-size:20px;
+}
+
+.header .about{
+margin-top:20px;
+line-height:26px;
+margin-bottom: 20px;
+}
+
+.right_inner{
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+  margin-top: 0;
+
+}
+.right_inner .edu{
+text-align: center;
+max-width: 1000px;
+min-height: 1000px;
+margin-top: -50px;
+
+}
+
+.right_inner .li_wrap{
+display:flex;
+margin-bottom:15px;
+margin-top: 10%;
+text-align: justify;
+
+}
+
+.right_inner .li_wrap .date{
+width:125px;
+
+
+}
+.right_inner .li_wrap .info{
+
+padding-left:25px;
+position:relative;
+
+
+}
+.right_inner .li_wrap .info_title{
+text-transform:uppercase;
+font-weight:700;
+letter-spacing:2px;
+text-align:center;
+
+
+
+}
+
+
+
+
+
+
+
+.language {
+  margin: -12px 0px;
+  padding: 0px;
+}
+
+.language h4 {
+  display: inline-block;
+  margin-right: 10px;
+  width: 83px;
+}
+.rate {
+  vertical-align: middle;
+  height: auto;
+  display: inline-block;
+}
+.bigo {
+  width: 12px;
+  height: 12px;
+  margin: 0px 3px;
+  border-radius: 100%;
+  background-color: #93a0a8;
+  display: inline-block;
+}
